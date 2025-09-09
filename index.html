@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lutho May - Junior Software Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta name="description" content="Lutho May - Junior Software Developer portfolio. Explore my projects, skills, and contact information.">
+    <!-- AOS Animate On Scroll CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css"/>
+    <style>
+        .svg-divider {
+            width: 100%;
+            overflow: hidden;
+            line-height: 0;
+            margin: -2rem 0 0 0;
+        }
+        .svg-divider svg {
+            display: block;
+            width: 100%;
+            height: 80px;
+            animation: waveMove 8s linear infinite alternate;
+        }
+        @keyframes waveMove {
+            0% { transform: translateX(0);}
+            100% { transform: translateX(-40px);}
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav id="navbar" aria-label="Main Navigation">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" data-aos="fade-down" data-aos-duration="1200">
+        <div class="hero-content">
+            <img 
+                src="https://lh3.googleusercontent.com/a/ACg8ocI5Ld_04MjOotxPhlPfijC2epnFevt1QCTGUa_KHpjeDKl8cua9=s288-c-no" 
+                alt="Lutho May Profile Photo" 
+                class="profile-img"
+            >
+            <h1 data-aos="fade-right" data-aos-delay="300">Hello, I'm Lutho May</h1>
+            <p data-aos="fade-left" data-aos-delay="500">
+                Junior Software Developer with hands-on experience in building web applications using modern programming languages and frameworks. Currently expanding technical capabilities through advanced digital skills training, including cloud technologies, API integration, and agile development practices
+            </p>
+            <a href="#projects" class="btn" aria-label="View My Work" data-aos="zoom-in" data-aos-delay="700">View My Work</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" data-aos="fade-up" data-aos-duration="1200">
+        <h2>About Me</h2>
+        <p>
+            I am a passionate and curious Junior Software Developer with a strong foundation in web development, programming, and digital problem-solving. My journey began through structured learning and hands-on projects, where I discovered a love for building functional, user-friendly applications. I thrive in environments that challenge me to think critically, collaborate with others, and continuously improve my technical abilities.
+        </p>
+        <p>
+            Currently, I am expanding my expertise through advanced digital skills development, focusing on cloud computing, API integration, DevOps practices, and data analysis. I’ve worked with technologies like Python, JavaScript, HTML/CSS, Git, and SQL, and I’m learning to apply these in real-world scenarios. My goal is to become a well-rounded developer who can contribute to both front-end and back-end development while understanding the broader digital ecosystem.
+        </p>
+        <p>
+            I am committed to lifelong learning and growth in the tech industry. Whether it's contributing to a team project, solving a coding challenge, or exploring new frameworks, I approach each opportunity with enthusiasm and a growth mindset. I’m excited to connect with professionals, collaborate on meaningful projects, and continue building solutions that make a positive impact.
+        </p>
+        <div style="text-align: center; margin-top: 2cm;">
+            <a href="https://www.linkedin.com/in/lutho-may-746b13246" target="_blank" class="btn" aria-label="Hire Me on LinkedIn" data-aos="zoom-in" data-aos-delay="300">Hire Me</a>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" data-aos="fade-up" data-aos-duration="1200">
+        <h2>Featured Projects</h2>
+        <div class="project-grid">
+            <!-- Project 1 -->
+            <div class="project-card" data-aos="flip-left" data-aos-delay="100">
+                <h3>Nicholas Sparks Book Showcase</h3>
+                <p>A web app showcasing Nicholas Sparks books, built with React and deployed on Netlify.</p>
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Netlify</span>
+                <div class="project-links">
+                    <a href="https://github.com/LuthoMay/nicholas-sparks-book-showcase" target="_blank" aria-label="View Code on GitHub"><i class="fab fa-github"></i> Code</a>
+                    <a href="https://nicholas-sparks-book-showcase.netlify.app/" target="_blank" aria-label="View Live Demo"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="project-card" data-aos="flip-left" data-aos-delay="200">
+                <h3>Data Analysis Colab Notebook</h3>
+                <p>Google Colab notebook demonstrating data analysis and visualization techniques.</p>
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Colab</span>
+                <div class="project-links">
+                    <a href="https://colab.research.google.com/drive/1Ko6NcWUhURONCSAYbRxiWqvs3Yg_GCAH?usp=sharing" target="_blank" aria-label="View Colab Notebook"><i class="fas fa-external-link-alt"></i> View Notebook</a>
+                </div>
+            </div>
+            <!-- Project 3 -->
+            <div class="project-card" data-aos="flip-left" data-aos-delay="300">
+                <h3>Sentiment Analysis Dashboard</h3>
+                <p>A Streamlit app for sentiment analysis, visualizing text data and predictions.</p>
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Streamlit</span>
+                <div class="project-links">
+                    <a href="https://devbybyron-sentiment-analysis-dashboard-app-wjrvks.streamlit.app/" target="_blank" aria-label="View Sentiment Analysis Dashboard"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                </div>
+            </div>
+            <!-- Project 4 -->
+            <div class="project-card" data-aos="flip-left" data-aos-delay="400">
+                <h3>ChatGPT Web Chatbot</h3>
+                <p>A web-based chatbot powered by ChatGPT, built using ChatGPT Builder.</p>
+                <span class="tech-tag">ChatGPT</span>
+                <span class="tech-tag">Web</span>
+                <div class="project-links">
+                    <a href="https://app.chatgptbuilder.io/webchat/?p=1008656&id=8qRKMGOhS30GF2tz2" target="_blank" aria-label="View ChatGPT Web Chatbot"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" data-aos="fade-up" data-aos-duration="1200">
+        <h2>Technical Skills</h2>
+        <div class="skills-container">
+            <div class="skill-category" data-aos="fade-right" data-aos-delay="100">
+                <h3>Languages</h3>
+                <p>Python, JavaScript, HTML &amp; CSS</p>
+            </div>
+            <div class="skill-category" data-aos="fade-right" data-aos-delay="200">
+                <h3>Libraries & Frameworks</h3>
+                <p>TensorFlow, Bootstrap, Express.js, Matplotlib</p>
+            </div>
+            <div class="skill-category" data-aos="fade-right" data-aos-delay="300">
+                <h3>Tools & Platforms</h3>
+                <p>Git, AWS, Streamlit, Figma, VS Code</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" data-aos="fade-up" data-aos-duration="1200">
+        <h2>Get In Touch</h2>
+        <p>I'm actively seeking new opportunities and am always open to discussing projects or roles.</p>
+        <!-- Contact Form Start -->
+        <form action="https://formspree.io/f/xqadneze" method="POST" class="contact-form" style="max-width: 500px; margin: 0 auto;">
+            <div class="form-group" style="display: flex; gap: 1rem; margin-bottom: 1rem;">
+                <input type="text" name="name" placeholder="First Name" required style="flex: 1 1 0; padding: 1rem; font-size: 1.1rem; border-radius: 8px; border: 1px solid #ccc; min-width: 0;">
+                <input type="text" name="surname" placeholder="Surname" required style="flex: 1 1 0; padding: 1rem; font-size: 1.1rem; border-radius: 8px; border: 1px solid #ccc; min-width: 0;">
+            </div>
+            <div class="form-group" style="margin-bottom: 1rem;">
+                <input type="email" name="email" placeholder="Your Email" required style="width: 100%; padding: 1rem; font-size: 1.1rem; border-radius: 8px; border: 1px solid #ccc;">
+            </div>
+            <div class="form-group" style="margin-bottom: 1rem;">
+                <textarea name="message" placeholder="Your Message" rows="4" required style="width: 100%; padding: 1rem; font-size: 1.1rem; border-radius: 8px; border: 1px solid #ccc;"></textarea>
+            </div>
+            <button type="submit" class="contact-btn" style="width: 100%; padding: 1rem; font-size: 1.2rem; border-radius: 8px; background: #007bff; color: #fff; border: none; cursor: pointer;">
+                <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+        </form>
+        <!-- Contact Form End -->
+        <div style="text-align: center; margin-top: 2.5rem;">
+            <div class="contact-links">
+                <a href="mailto:maylutho635@gmail.com" class="contact-btn" aria-label="Email Lutho" title="Email" style="margin: 0 0.5rem; font-size: 1.5rem;"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/lutho-may-746b13246" target="_blank" class="contact-btn" aria-label="LinkedIn Profile" title="LinkedIn" style="margin: 0 0.5rem; font-size: 1.5rem;"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/LuthoMay" target="_blank" class="contact-btn" aria-label="GitHub Profile" title="GitHub" style="margin: 0 0.5rem; font-size: 1.5rem;"><i class="fab fa-github"></i></a>
+                <a href="/resume.pdf" class="contact-btn" aria-label="Download Resume" target="_blank" title="Resume" style="margin: 0 0.5rem; font-size: 1.5rem;"><i class="fas fa-file-alt"></i></a>
+            </div>
+            <div style="margin-top: 2rem;">
+                <a href="https://www.linkedin.com/in/lutho-may-746b13246" target="_blank" class="hire-btn-contact" aria-label="Hire Me on LinkedIn">Hire Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Lutho. Built with HTML &amp; CSS.</p>
+    </footer>
+
+    <!-- AOS Animate On Scroll JS -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script>
+    window.addEventListener('scroll', function() {
+        const navbar = document.getElementById('navbar');
+        if(window.scrollY > 20) {
+            navbar.classList.add('scrolled');
+        } else {
+            navbar.classList.remove('scrolled');
+        }
+    });
+    </script>
+</body>
+</html>
