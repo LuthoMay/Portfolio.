@@ -104,7 +104,7 @@ section h2::after {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: linear-gradient(120deg, #e3f0ff 60%, #b8e1fc 100%, #fbc2eb 160%);
+    background: linear-gradient(to right, #ff9a9e, #fad0c4, #fad0c4);
     min-height: 90vh;
     border-radius: 0 0 40px 40px;
     box-shadow: 0 8px 32px rgba(123,182,250,0.08);
