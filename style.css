@@ -17,14 +17,19 @@ body {
 }
 
 /* Navigation Bar */
-#navbar {
-    background: rgba(51, 51, 51, 0.98);
-    position: relative;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
-    box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+nav {
+  display: flex;
+  justify-content: space-around; /* or space-between / center */
+  align-items: center;
+  flex-direction: row; /* ensures horizontal layout */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #fff; /* optional for visibility */
 }
+
+
 
 #navbar ul {
     display: flex;
