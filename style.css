@@ -707,3 +707,10 @@ footer {
 .view-work-btn {
   margin-top: 1rem; /* adds space between text and button */
 }
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #yourColor; /* Replace with your desired color */
+}
+
